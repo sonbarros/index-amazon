@@ -20,5 +20,5 @@ if($_SERVER["SERVER_NAME"] == "www.luarcoworking.com.br") {
 
 }else if($_SERVER["SERVER_NAME"] == "www.empregosfloriano.com.br") {
 	
-	header("location: /empflowp/admin/");
+	header("location: /empflowp/wp-admin/");
 }
