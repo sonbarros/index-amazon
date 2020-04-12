@@ -22,7 +22,7 @@ if($_SERVER["SERVER_NAME"] == "www.luarcoworking.com.br") {
 	
 	header("location: /empflowp/wp-admin/");
 }else if($_SERVER["SERVER_NAME"] == "ec2-18-220-210-235.us-east-2.compute.amazonaws.com") {
-	header("location: /../supermercado/public");
+	header("location: /../supermercado/public/teste/");
 }else {
 	echo $_SERVER["SERVER_NAME"];
 }
